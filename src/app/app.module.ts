@@ -15,6 +15,7 @@ import localeEn from '@angular/common/locales/en'
 registerLocaleData(localeEn);
 
 import localeEs from '@angular/common/locales/es'
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 registerLocaleData( localeEs );
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ registerLocaleData( localeEs );
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRouterModule,
     PrimeNGModule,
     SharedModule,
