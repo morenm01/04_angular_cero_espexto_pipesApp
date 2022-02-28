@@ -5,13 +5,16 @@ import { PrimeNGModule } from '../prime-ng/prime-ng.module';
 
 
 
+
 @NgModule({
   declarations: [
     MenuComponent
   ],
   imports: [
     CommonModule,
-    PrimeNGModule
+    PrimeNGModule,
+
+
   ],
   exports:[
     MenuComponent
