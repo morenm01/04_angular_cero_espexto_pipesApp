@@ -15,6 +15,6 @@ export class BasicosComponent  {
   nombreCompleto: string = 'fErNando herRera';
 
   fecha: Date = new Date(); // el día de hoy
-
+ 
 
 }
