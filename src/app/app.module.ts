@@ -25,7 +25,9 @@ import { VentasModule } from './ventas/ventas.module';
     VentasModule
 
   ],
-  providers: [],
+  providers: [
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
